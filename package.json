@@ -1,6 +1,6 @@
 {
   "name": "@ngdo/schematics",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Schematic to generate application models using rest api service",
   "scripts": {
     "build": "tsc -p tsconfig.json",
@@ -8,10 +8,20 @@
     "test": "npm run build && jasmine src/**/*_spec.js"
   },
   "keywords": [
+    "models",
+    "interfaces",
+    "angular",
+    "devkit",
+    "cli",
+    "angular-cli",
     "schematics"
   ],
-  "author": "@ngdominican",
+  "author": "@ngDominican",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngDominican/ngdo-schematics.git"
+  },
   "schematics": "./src/collection.json",
   "dependencies": {
     "@angular-devkit/core": "^8.2.0",
