@@ -1,0 +1,27 @@
+{
+    "title": "Ngd-Models Schema",
+    "description": "Description Ngd-Models Schema",
+    "type": "object",
+    "properties": {
+        "url": {
+            "type": "string",
+            "$default": {
+                "$source": "argv",
+                "index": 0
+            }
+        },
+        "name": {
+            "type": "string",
+            "default": "default"
+        },
+        "directory": {
+            "type": "string"
+        },
+        "properties": {
+            "type": "array"
+        }
+    },
+    "required": [
+        "url"
+    ]
+}
